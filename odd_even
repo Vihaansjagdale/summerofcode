@@ -1,0 +1,11 @@
+import math, os
+def isodd(number):
+    return number%2==1
+
+def isevean(number):
+    return number%2==0
+
+if isodd(8) == True:
+    print("odd")
+else:
+    print("even")
